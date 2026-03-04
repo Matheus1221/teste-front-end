@@ -1,0 +1,45 @@
+.hero {
+  height: 290px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #fff;
+}
+
+.content h1 {
+  margin: 0 0 8px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.content p {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.highlight {
+  color: #f2c200;
+  font-weight: 800;
+}
+
+.content button {
+  height: 44px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 6px;
+  background: #f2c200;
+  font-weight: 700;
+  cursor: pointer;
+}

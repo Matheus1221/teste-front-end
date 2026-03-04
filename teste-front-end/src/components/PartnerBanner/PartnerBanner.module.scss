@@ -1,0 +1,38 @@
+.banner {
+  height: 250px;
+  width: 100%;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.overlay {
+  height: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.1));
+  color: #fff;
+  display: grid;
+  align-content: center;
+  gap: 6px;
+}
+
+.overlay h1 {
+  margin: 0;
+}
+.overlay p {
+  margin: 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.overlay button {
+  width: 110px;
+  height: 34px;
+  border: 0;
+  border-radius: 6px;
+  background: #f2c200;
+  font-weight: 900;
+  cursor: pointer;
+}

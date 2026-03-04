@@ -1,0 +1,178 @@
+@use "../../styles/variables" as *;
+
+.header {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  background: $color-white;
+}
+
+.topBar {
+  width: 100%;
+  background: $color-white;
+  border-bottom: 1px solid $color-border;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 6px 0px;
+  font-size: 12px;
+  color: $color-text-secondary;
+}
+.topItem {
+  display: flex;
+  gap: 5px;
+}
+
+.topItem b {
+  font-size: 12px;
+  color: $color-primary;
+  font-weight: $font-weight-bold;
+}
+.topItem span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  color: $color-text-light;
+}
+.main {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 20px;
+  background: $color-white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: $font-weight-extra-bold;
+}
+
+.logoMark {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: $color-yellow;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  font-size: 20px;
+  color: $color-text;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 8px;
+  height: 42px;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+
+  padding: 0 16px;
+
+  font-size: 14px;
+
+  outline: none;
+}
+
+.search button {
+  width: 44px;
+  height: 42px;
+  color: $color-text-light;
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.icons button {
+  width: 40px;
+  height: 40px;
+  color: $color-text-light;
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  font-size: 18px;
+}
+
+.nav {
+  width: 100%;
+  background: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 14px 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.nav a {
+  font-size: 13px;
+
+  font-weight: $font-weight-bold;
+
+  color: #9a9a9a;
+
+  text-decoration: none;
+
+  transition: $transition-default;
+}
+
+.nav a:hover {
+  color: $color-primary;
+}
+
+.active {
+  color: $color-primary !important;
+}
+
+.assinatura {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color: #9a9a9a;
+}
+
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+  }
+
+  .icons {
+    justify-content: flex-start;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+
+    gap: 20px;
+  }
+}

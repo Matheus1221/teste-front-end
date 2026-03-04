@@ -1,0 +1,39 @@
+@use "../../styles/variables" as *;
+
+.section {
+  margin: 44px 0;
+  text-align: center;
+}
+
+.section h2 {
+  margin: 0 0 24px;
+  color: $color-primary;
+  font-size: 28px;
+  font-weight: $font-weight-extra-bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: $color-white;
+
+  display: grid;
+  place-items: center;
+
+  box-shadow:
+    0px 10px 24px rgba(0, 0, 0, 0.1),
+    0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.brand img {
+  width: 120px;
+  height: auto;
+}
