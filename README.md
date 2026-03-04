@@ -25,7 +25,7 @@ git clone https://github.com/Matheus1221/teste-front-end.git
 Entre na pasta do projeto:
 
 ```bash
-cd teste-front-end/teste-front-end
+cd teste-front-end
 ```
 
 ---
