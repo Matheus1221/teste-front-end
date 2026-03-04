@@ -1,5 +1,5 @@
 import styles from "./PartnerBanner.module.scss";
-import parceirosImg from "../../assets/parceiros.jpg"; // SUBSTITUIR
+import parceirosImg from "../../assets/parceiros.jpg";
 
 export function PartnerBanner() {
   return (
