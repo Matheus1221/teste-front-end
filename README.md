@@ -1,31 +1,72 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# Teste Front-End
 
-### Vem ser #Econverse!
+Este repositório contém uma aplicação Front-End desenvolvida como parte de um teste técnico.
 
-Segue abaixo as instruções para a execução do teste.
+O objetivo do projeto é demonstrar conhecimentos em desenvolvimento web, organização de código e boas práticas de implementação.
+Usando Layout do figma: [text](https://www.figma.com/design/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0-1&p=f&t=cUu1C5bwOEjFvdiP-0)
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br com o título **Teste Vaga FrontEnd**
+---
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+## Pré-requisitos
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+Antes de rodar o projeto, é necessário ter instalado:
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+- Node.js (recomendado v16 ou superior)
+- npm
+- Git
 
-**Boa sorte! ;)**
+---
+
+## Clonar o repositório
+
+```bash
+git clone https://github.com/Matheus1221/teste-front-end.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd teste-front-end/teste-front-end
+```
+
+---
+
+## Instalar dependências
+
+Execute o comando abaixo para instalar todas as dependências do projeto
+
+```bash
+npm install
+```
+
+---
+
+## Rodar o projeto
+
+Após instalar as dependências, execute:
+
+```bash
+npm run dev
+```
+
+A aplicação será iniciada localmente e poderá ser acessada no navegador através de:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build para produção
+
+Para gerar a versão otimizada do projeto:
+
+```bash
+npm run build
+```
+
+---
+
+## Autor
+
+Matheus
