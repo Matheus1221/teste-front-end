@@ -3,7 +3,6 @@
 Este repositório contém uma aplicação Front-End desenvolvida como parte de um teste técnico.
 
 O objetivo do projeto é demonstrar conhecimentos em desenvolvimento web, organização de código e boas práticas de implementação.
-Usando Layout do figma: [Layout Figma](https://www.figma.com/design/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0-1&p=f&t=cUu1C5bwOEjFvdiP-0)
 
 ---
 
